@@ -5,13 +5,9 @@ Fed by a json file.
 """
 import socket
 import json
-import time
-from other import extra
 
-e = extra()
-user = e[0]
-file_name = e[1]
-config_local = '/Users/%s/Desktop/%s' % (user, file_name)
+# View README.md for config_local example file
+config_local = input("Please provide full path to config file (Ex. /Users/yourname/Desktop/filename.json): \n")
 
 with open(config_local) as config_file:
     config = json.load(config_file)
