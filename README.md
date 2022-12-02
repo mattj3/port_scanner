@@ -1,5 +1,5 @@
 # port_scanner
-A simple and fast scanner using sockets. Feed the script with hosts and ports that you want to scan. 
+A simple and fast scanner using sockets. Feed the script with hosts and ports that you want to scan.
 
 # config_local example 
 ```
@@ -8,3 +8,5 @@ A simple and fast scanner using sockets. Feed the script with hosts and ports th
 	"ports": [443, 80, 21]
 }
 ```
+# reference 
+https://www.freecodecamp.org/learn/information-security/python-for-penetration-testing/developing-a-port-scanner
