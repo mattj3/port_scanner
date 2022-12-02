@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-This script allows multiple hosts and ports to be scanned.
-Fed by a json file.
+This script allows multiple hosts and ports to be scanned; fed by a json file.
 """
 import socket
 import json
